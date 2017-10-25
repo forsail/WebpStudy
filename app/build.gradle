@@ -23,7 +23,7 @@ android {
 McImageConfig {
     isCheck false //default true
     isCompress false //default true
-    maxSize 1 * 1024 * 1024 //default 1MB
+    maxSize 0.5 * 1024 * 1024 //default 1MB
     isWebpConvert true //default true
     isJPGConvert false //default true
     enableWhenDebug true //default true
