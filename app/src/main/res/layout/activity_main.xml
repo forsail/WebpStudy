@@ -19,21 +19,31 @@
         android:id="@+id/image_1"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:src="@drawable/test"
+        android:src="@drawable/test1001"
+        app:layout_constraintBottom_toTopOf="@+id/image_2"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="spread" />
 
+    <TextView
+        android:id="@+id/text_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="webp imageView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_2" />
 
-    <!--<com.lee.asher.webpstudy.WebpImageView-->
-    <!--android:id="@+id/image_2"-->
-    <!--android:layout_width="300dp"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--app:layout_constraintBottom_toBottomOf="parent"-->
-    <!--app:layout_constraintLeft_toLeftOf="parent"-->
-    <!--app:layout_constraintRight_toRightOf="parent"-->
-    <!--app:layout_constraintTop_toBottomOf="@+id/image_1"-->
-    <!--app:webp_src="@drawable/test1001" />-->
+    <com.lee.asher.webpstudy.WebpImageView
+        android:id="@+id/image_2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_1"
+        app:webp_src="@drawable/test1001"
+        tools:src="@drawable/test1001" />
 
 </android.support.constraint.ConstraintLayout>

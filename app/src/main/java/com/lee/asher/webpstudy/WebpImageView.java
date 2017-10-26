@@ -12,6 +12,8 @@ import android.widget.ImageView;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 
+import me.everything.webp.WebPDecoder;
+
 
 /**
  * A {@link ImageView} with WebP support </p>

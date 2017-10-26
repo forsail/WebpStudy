@@ -1,4 +1,4 @@
-package com.lee.asher.webpstudy;
+package me.everything.webp;
 
 import android.graphics.Bitmap;
 
